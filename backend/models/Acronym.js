@@ -6,4 +6,5 @@ const AcronymSchema = new Schema({
   definition: String
 });
 
+
 module.exports = mongoose.model('Acronym', AcronymSchema);
